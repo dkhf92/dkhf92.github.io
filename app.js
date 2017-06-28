@@ -1,10 +1,14 @@
-$(document).ready(function () {
-  $('span').click(function() {
-    $('.overlay').toggleClass('anim');
-    console.log('CLICKED');
-  });
-  $('.animation').click(function(){
-    $('.anim').toggleClass('reverse-animation');
-    console.log('CLICKED');
-  });
+// $(document).ready(function () {
+//   $('span').click(function() {
+//     $('.overlay').toggleClass('anim');
+//     console.log('CLICKED');
+//   });
+//   $('.animation').click(function(){
+//     $('.anim').toggleClass('reverse-animation');
+//     console.log('CLICKED');
+//   });
+// });
+
+$('#menu').hover(function () {
+  $('body').toggleClass('active');
 });
