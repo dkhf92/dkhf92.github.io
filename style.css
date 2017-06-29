@@ -2,6 +2,13 @@
   background: yellow;
 }*/
 
+ul {
+  list-style-type: none;
+}
+
+
+
+
 /*h1 {
 text-align: center;
 }*/
@@ -10,7 +17,7 @@ text-align: center;
 text-align: center;
 display: block;
 }*/
-.set3d {
+/*.set3d {
   margin: 0;
   -moz-perspective: 800px;
   -webkit-perspective: 800px;
@@ -20,9 +27,9 @@ display: block;
   perspective-origin: 0% 50%;
   height: 100%;
   width: 100%;
-}
+}*/
 
-#trigger {
+/*#trigger {
   position: absolute;
   width: 50px;
   height: 100%;
@@ -30,8 +37,8 @@ display: block;
   right: -50px;
   background: transparent;
   top: 0;
-}
-
+}*/
+/*
 #menu {
   display: block;
   position: fixed;
@@ -113,4 +120,4 @@ display: block;
 
 h1, p {
   color: grey;
-}
+}*/

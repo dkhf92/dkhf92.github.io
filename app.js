@@ -12,3 +12,9 @@
 $('#menu').hover(function () {
   $('body').toggleClass('active');
 });
+
+
+$('.project1').onclick(function(){
+  $('.memorygame').toggleClass('');
+  console.log('CLICKED');
+});
